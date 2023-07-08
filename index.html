@@ -10,34 +10,30 @@
 </head>
 
 <body>
-    <!-- Спрайты -->
-
-    <svg style="display: none">
-        <symbol id="id" viewBox="">
-            <g>
-                <!-- path -->
-            </g>
-        </symbol>
-    </svg>
-
-    <!-- -------------------------------------------- -->
     <div class="wrapper">
         <header class="header" id="header">
             <div class="container">
                 <div class="header__inner">
-                    <div class="header__left">
-                        <div class="header__logo"><img src="assets/images/logo.png" alt="logo"></div>
-                        <div class="header__social social">
-                            <a class="social__link" href="#">Telegram</a>
-                            <a class="social__link" href="#">WhatsApp</a>
-                            <a class="social__link" href="#">ВКонтакте</a>
+                    <div class="header__wrap">
+                        <div class="header__left">
+                            <div class="header__logo">
+                                <img src="assets/images/logo.png" alt="logo">
+                            </div>
+                            <div class="header__social social">
+                                <a class="social__link" href="#" target="_blank">Telegram</a>
+                                <a class="social__link" href="#" target="_blank">WhatsApp</a>
+                                <a class="social__link" href="#" target="_blank">ВКонтакте</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__right">
+
                         <div class="header__contact">
                             <div class="header__phone">+7(999)-999-99-99</div>
                             <button class="header__btn btn btn--light">Оформить заявку</button>
                         </div>
+                    </div>
+
+                    <div class="burger">
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -76,6 +72,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="services">
                 <div class="container">
                     <div class="services__inner">
@@ -316,21 +313,21 @@
                 </div>
             </section>
 
-            <!--            <section class="feedback">-->
-            <!--                <img class="feedback__decor-one" src="assets/images/feedback-decor-1.svg" alt="">-->
-            <!--                <img class="feedback__decor-two" src="assets/images/feedback-decor-2.svg" alt="">-->
-
-            <!--                <div class="container">-->
-            <!--                    <div class="feedback__inner">-->
-            <!--                        <h2 class="feedback__title">Оставьте заявку</h2>-->
-            <!--                        <form class="feedback__form" action="/">-->
-            <!--                            <input class="feedback__input" type="text" placeholder="Ваше имя">-->
-            <!--                            <input class="feedback__input" type="tel" placeholder="Ваш номер телефона">-->
-            <!--                            <button class="feedback__btn  btn" type="submit">Отправить</button>-->
-            <!--                        </form>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </section>-->
+            <section class="feedback">
+                <div class="feedback__bg">
+                    <img src="assets/images/feedback-bg.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="feedback__inner">
+                        <h2 class="feedback__title">Оставьте заявку</h2>
+                        <form class="feedback__form" action="/">
+                            <input class="feedback__input" type="text" placeholder="Ваше имя">
+                            <input class="feedback__input" type="tel" placeholder="Ваш номер телефона">
+                            <button class="feedback__btn  btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer class="footer" id="footer">
